@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/gorilla/websocket"
+)
+
+var client map[*websocket.Conn]*ClientDetails
 
 func main() {
-	fmt.Println("vim-go")
+	
 }
